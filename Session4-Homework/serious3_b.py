@@ -1,6 +1,6 @@
 from random import randint
 
-word_list = ["hexagon", "meticulous", "champion"]
+word_list = ["champion", "hexagon", "meticulous"]
 
 i = randint(0, (len(word_list) - 1))
 new = word_list[i]
