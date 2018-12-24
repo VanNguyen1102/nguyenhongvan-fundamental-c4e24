@@ -1,0 +1,23 @@
+1. Why should we use functions at all?
+Function is a group of statements that perform a specific task. You can use function when you want to use these statement repeatedly or call in a sub-program.
+
+2. How to define/declare a function?
+Use the keyword "def" to declare the function and follow this up with the function name.
+
+3. How to call/use a function?
+Type the function name with approciate parameters.
+function_name()
+
+4. What is return, why and how do we use it?
+The return statement is used to exit a fucntion and go back to the place where it was called.
+return r
+
+5. Do we have to use return in every function?
+No, we don't.
+
+6. What are function arguments/parameters, why and how we use it?
+An argument is information passed to a function. 
+A parameter is information received by a function.
+
+7. How to use function from a different file other than our currently working file?
+We import the file containing the function.
