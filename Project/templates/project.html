@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Foods</title>
+</head>
+<body background="https://images.unsplash.com/photo-1492683513054-55277abccd99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+        <div id='root'>
+            <form action="" method="POST">
+                <h2>Hello! Let's make your Bchoice! </h2> 
+                <br>
+                <div class="inp_1">
+                    <label for="">Bữa ăn</label>
+                    <select name="food_name" id="">
+                        <option value="" disabled selected></option>
+                        <option value="">Ăn sáng</option>
+                        <option value="">Ăn trưa</option>
+                        <option value="">Ăn tối</option>
+                        <option value="">Ăn vặt</option>
+                    </select>
+                </div>
+
+                <div class="inp_1">
+                <label for="">Địa điểm</label>
+                    <select name="location" id="">
+                        <option value="" disabled selected></option>
+                        <option value="">Quận Hoàn Kiếm</option>
+                        <option value="">Quận Ba Đình</option>
+                        <option value="">Quận Đống Đa</option>
+                        <option value="">Quận Hai Bà Trưng</option>
+                        <option value="">Quận Cầu Giấy</option>
+                        <option value="">Quận Long Biên</option>
+                    </select>
+                </div>
+
+                <div class="inp_1">
+                    <label for="">Đánh giá</label>
+                    <input type="number" name="rate">
+                </div>
+
+                <button id="btn_search">Search</button>
+            </form>
+        </div>
+        
+</body>
+</html>
